@@ -1,0 +1,10 @@
+server:
+  port: 0
+spring:
+  datasource:
+    default:
+      url: jdbc:mysql://192.168.150.137:3306/adminDataBase?characterEncoding=UTF8
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+      type: com.alibaba.druid.pool.DruidDataSource
